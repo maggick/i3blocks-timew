@@ -4,8 +4,8 @@ Interact with timewarrior directly from i3blocks. Show current task time when
 active. A floating window allows to inpute the task name.
 
 ![no active task](i3blocks-timew-01.png)
-![floating windows to input task name](i3blocks-timew-01.png)
-![active task, time tracking](i3blocks-timew-01.png)
+![floating windows to input task name](i3blocks-timew-02.png)
+![active task, time tracking](i3blocks-timew-03.png)
 
 # Config
 
