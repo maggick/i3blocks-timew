@@ -48,9 +48,15 @@ def middle_click():
     pass
 
 def get_status():
-    current_dir = pathlib.Path(__file__).parent
-    #TODO: rewrite timew.sh in python
-    print(subprocess.getoutput("bash "+str(current_dir)+ "/timew.sh"))
+    status = subprocess.run('timew', capture_output=True)
+    if status.stdout==b"There is no active time tracking.\n":
+      print('')
+    else:
+      out = ' '
+      for e in status.stdout.splitlines()[0].split()[1:]:
+        out += e.decode('utf-8') + " "
+      out += "- " + status.stdout.splitlines()[3].split()[1].decode('utf-8')
+      print(out)
 
 def main():
     if os.environ.get('BLOCK_BUTTON') == "1":
