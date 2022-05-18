@@ -4,7 +4,11 @@ Interact with timewarrior directly from i3blocks.
 
 ![no active task](i3blocks-timew-01.png)
 
- A floating window allows to inpute the task name.
+Integrated with taskwarrior, will allow to choose a pending task
+
+![First windows with taskwarrior pending tasks](i3blocks-timew-04.png)
+
+A floating window allows to inpute the task name.
 
 ![floating windows to input task name](i3blocks-timew-02.png)
 
