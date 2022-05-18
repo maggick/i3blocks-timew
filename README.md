@@ -22,7 +22,6 @@ Show current task time when active.
 
 ```
 [timew]
-command=python3 ~/.config/i3blocks/timew/timew.py
 interval=10
 signal=10
 ```
