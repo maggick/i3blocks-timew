@@ -48,6 +48,7 @@ def middle_click():
 
 def get_status():
     current_dir = pathlib.Path(__file__).parent
+    #TODO: rewrite timew.sh in python
     print(subprocess.getoutput("bash "+str(current_dir)+ "/timew.sh"))
 
 def main():
