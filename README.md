@@ -14,7 +14,7 @@ Show current task time when active.
 
 # Config
 
-##i3blocks
+## i3blocks
 
 ```
 [timew]
@@ -23,7 +23,7 @@ interval=10
 signal=10
 ```
 
-##i3
+## i3
 
 In order to have a floating window with i3.
 
