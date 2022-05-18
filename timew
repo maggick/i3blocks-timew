@@ -19,6 +19,7 @@ def start():
     if len(tasks_r) !=0:
       if len(tasks_r) ==1: # easygui choicebox want at least two options
         tasks_r.append("")
+      #FIX: why is that font so weird?
       myvar = easygui.choicebox(msg, title, tasks_r)
 
     if (myvar != None and myvar != "Add more choices"):
