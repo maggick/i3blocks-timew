@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 import os
-import pathlib
 import easygui
 import subprocess
 from tasklib import TaskWarrior
