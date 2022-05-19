@@ -18,6 +18,15 @@ Show current task time when active.
 
 ![active task, time tracking](i3blocks-timew-03.png)
 
+# Install
+
+`pip install -r requirements.txt`
+
+Two dependencies are required for this blocklet:
+
+* easygui: draw the windows
+* tasklib: interact with [taskwarrior](https://taskwarrior.org/)
+
 # Config
 
 ## i3blocks
